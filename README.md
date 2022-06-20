@@ -14,7 +14,7 @@ Terraform state must be store in the `Azure Storage Container` and must have ser
 
 We should write Terraform module and use it to create all resources above. 
 
-##AWS
+## AWS
 
 Your client is an US company, they hire you to create the Infrastructure for the new project base on AWS Cloud. They are using Terraform as their Infrastructure as Code and they also want you to use it.
 - Create a VPC for Dev and Staging, the VPC will have 2 subnets, 1 public subnet and 1 private subnets, we will name them `subnet-a`, `subnet-b`
@@ -27,7 +27,7 @@ Terraform state must be store in the `S3 Object Storage` and must have server si
 
 We should write Terraform module and use it to create all resources above. 
 
-###Bonus Lab
+### Bonus Lab
 
 Your name is John Doe. You are working in the startup company. You are the very first DevOps engineer, but your team will be grew up soon, you need to have a solution to manage your team members (Dev and DevOps) and their permission. Dev Team will have different permission from DevOps team, and your will have an outsource DevOps team in the future. You need to setup and organize policies, group, and role for all of them via Terraform
 
